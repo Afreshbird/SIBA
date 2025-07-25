@@ -1,5 +1,11 @@
 # The Source Image is the Best Attention for Infrared and Visible Image Fusion
 
+
+#### We sincerely thank the reviewers, AC and AC triplet of this paper, for their responsibility, dedication, professionalism, and recognition. Meanwhile, we would like to express our gratitude to all the reviewers and ACs. Together, you have created a favorable academic environment, which will enable us to go further.
+
+---
+
+
 <!-- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)]()
 [![PyTorch Version](https://img.shields.io/badge/PyTorch-1.12%2B-orange)]() -->
