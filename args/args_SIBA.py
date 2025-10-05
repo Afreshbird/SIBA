@@ -1,8 +1,8 @@
 class args():
 	
 	# trainset path
-	ir_path = "/home/ws/datasets/image_fusion/MSRS_1083__RoadScene_201/ir"
-	vi_path = "/home/ws/datasets/image_fusion/MSRS_1083__RoadScene_201/vi"
+	ir_path = "add_your_ir_path"
+	vi_path = "add_your_vi_path"
 	patch_size = 128
 	
 	model_save_path = "./checkpoint/test"
