@@ -1,34 +1,66 @@
-# The Source Image is the Best Attention for Infrared and Visible Image Fusion
+### 🎉 The Source Image is the Best Attention for Infrared and Visible Image Fusion
 
+#### ✨ We sincerely thank the reviewers, AC and AC triplet of this paper, for their responsibility, dedication, professionalism, and recognition. Meanwhile, we would like to express our gratitude to all the reviewers and ACs. Together, you have created a favorable academic environment, which will enable us to go further. 
 
-#### We sincerely thank the reviewers, AC and AC triplet of this paper, for their responsibility, dedication, professionalism, and recognition. Meanwhile, we would like to express our gratitude to all the reviewers and ACs. Together, you have created a favorable academic environment, which will enable us to go further.
+#
 
----
-
-
-<!-- [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue)]()
-[![PyTorch Version](https://img.shields.io/badge/PyTorch-1.12%2B-orange)]() -->
-
-Official implementation of ICCV 2025 paper:  
+🌟 Official implementation of the ICCV 2025 paper:  
 **The Source Image is the Best Attention for Infrared and Visible Image Fusion**  
 *Song Wang*, *Xie Han*, *Liqun Kuang<sup>*</sup>*, *Boying Wang*, *Zhongyu Chen*, *Zherui Qiao*, *Fan Yang*, *Xiaoxia Liu*, *Bingyu Zhang*, *Zhixun Wang* 
 \
 *School of Computer Science and Technology, North University of China, Taiyuan 030051, China*
 
-[[Paper]](https://iccv.thecvf.com/virtual/2025/poster/1268) |
-[[Poster]](https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1268.png?t=1753173732.720175) |
-[[Email]](mailto:b20230704@st.nuc.edu.cn)
+<!-- [[Paper]](https://iccv.thecvf.com/virtual/2025/poster/1268) |
+[[Poster]](https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1268.png?t=1759630753.7333565) |
+[[Video]]() -->
 
 ---
 
-## 🚀 Highlights
-- ✨ **We will upload the code as soon as possible.** 
-<!-- - ⚡ **Key innovation 2** (e.g., 30% faster than previous methods)
-- 🎯 **Key result** (e.g., State-of-the-art on Y benchmark) -->
+<!-- ## 🚀 Highlights
+- ⚡ **Code and weights are released.**  -->
 
-<!-- ## 📦 Installation
+
+### 🛠️ Environments
 ```bash
-conda create -n iccv25 python=3.8
-conda activate iccv25
-pip install -r requirements.txt -->
+cuda=11.2
+python=3.8.18
+imageio==2.32.0
+numpy==1.24.4
+opencv-python==4.8.1.78
+pillow==10.0.1
+timm==0.9.10
+torch==1.10.0+cu111
+torchaudio==0.10.0+cu111
+torchvision==0.11.0+cu111
+einops==0.7.0
+tqdm==4.66.1
+kornia==0.7.0
+```
+
+### 📉 Training datasets
+[MSRS_train](https://github.com/Linfeng-Tang/MSRS/tree/main/train) | [RoadScene](https://github.com/hanna-xu/RoadScene)
+
+
+### 📈 Testing datasets
+[MSRS_test](https://github.com/Linfeng-Tang/MSRS/tree/main/test) | [M3FD_Fusion](https://github.com/JinyuanLiu-CV/TarDAL) | [TNO_baidu](https://pan.baidu.com/s/1zHQV7FVRgRabmIGs4E4XiA?pwd=6dpr) | [TNO_google](https://drive.google.com/drive/folders/1yURIsV9R9kEYLQovQ-vPogUkXqrIZswA?usp=drive_link)
+
+
+
+### 📐 The code of metric evaluation
+[Evaluation-for-Image-Fusion](https://github.com/Linfeng-Tang/Evaluation-for-Image-Fusion)
+
+
+
+<!-- ### ⚠️ xx
+xxx
+
+
+## 🚩🔗 Citation
+xxx -->
+
+
+<!-- #
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![DOI](https://img.shields.io/badge/DOI-10.xxx/xxxxx-blue) -->
+
