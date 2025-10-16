@@ -10,9 +10,9 @@
 \
 *School of Computer Science and Technology, North University of China, Taiyuan 030051, China*
 
-<!-- [[Paper]](https://iccv.thecvf.com/virtual/2025/poster/1268) |
+[[Paper]](https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_The_Source_Image_is_the_Best_Attention_for_Infrared_and_ICCV_2025_paper.pdf) |
 [[Poster]](https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1268.png?t=1759630753.7333565) |
-[[Video]]() -->
+[[Video]](https://www.youtube.com/watch?v=EbD_1efCYfU)
 
 ---
 
@@ -52,12 +52,20 @@ kornia==0.7.0
 
 
 <!-- ### ⚠️ xx
-xxx
-
-
-## 🚩🔗 Citation
 xxx -->
 
+
+## 🚩 Citation
+```bibtex
+@InProceedings{Wang_2025_ICCV,
+    author    = {Wang, Song and Han, Xie and Kuang, Liqun and Wang, Boying and Chen, Zhongyu and Qiao, Zherui and Yang, Fan and Liu, Xiaoxia and Zhang, Bingyu and Wang, Zhixun},
+    title     = {The Source Image is the Best Attention for Infrared and Visible Image Fusion},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2025},
+    pages     = {13513-13522}
+}
+```
 
 <!-- #
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
