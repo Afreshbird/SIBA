@@ -6,7 +6,7 @@ from loader.test_loader import TestLoader
 from utils.RGB2YCrBb import YCrCb2RGB, clamp
 from models.SIBA import SIBA
 import torch
-import time
+from time import perf_counter
 
 torch.cuda.set_device(0)
 
@@ -36,9 +36,11 @@ with torch.no_grad():
         cr = cr.cuda()
         ir_image = ir_image.cuda()
 
-        start = time.time()
+        torch.cuda.synchronize()
+        start = perf_counter()
         image_fused = model(ir_image,vis_y_image)
-        end = time.time()
+        torch.cuda.synchronize()
+        end = perf_counter()
 
         sum_time+=(end-start)
         
